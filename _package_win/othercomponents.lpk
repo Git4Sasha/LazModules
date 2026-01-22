@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="OtherComponents"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="..\icons"/>
+        <OtherUnitFiles Value="..;..\win;..\icons"/>
+        <UnitOutputDirectory Value="C:\lazarus\units\modules"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files Count="13">
+      <Item1>
+        <Filename Value="..\icons\icons.pas"/>
+        <UnitName Value="icons"/>
+      </Item1>
+      <Item2>
+        <Filename Value="..\editnum.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="EditNum"/>
+      </Item2>
+      <Item3>
+        <Filename Value="..\valuelisteditornum.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ValueListEditorNum"/>
+      </Item3>
+      <Item4>
+        <Filename Value="..\PanelUpDown.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="PanelUpDown"/>
+      </Item4>
+      <Item5>
+        <Filename Value="..\BitFieldsEditor.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="BitFieldsEditor"/>
+      </Item5>
+      <Item6>
+        <Filename Value="..\GLPlace3D.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="GLPlace3D"/>
+      </Item6>
+      <Item7>
+        <Filename Value="..\OGLAxisRotate.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="OGLAxisRotate"/>
+      </Item7>
+      <Item8>
+        <Filename Value="..\GLChart.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="GLChart"/>
+      </Item8>
+      <Item9>
+        <Filename Value="..\GLChartF.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="GLChartF"/>
+      </Item9>
+      <Item10>
+        <Filename Value="..\FastGLWork.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="FastGLWork"/>
+      </Item10>
+      <Item11>
+        <Filename Value="..\FastGLWorkV2.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="FastGLWorkV2"/>
+      </Item11>
+      <Item12>
+        <Filename Value="..\GLShaderProg.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="GLShaderProg"/>
+      </Item12>
+      <Item13>
+        <Filename Value="..\win\OpenGLContext.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="OpenGLContext"/>
+      </Item13>
+    </Files>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="IDEIntf"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
